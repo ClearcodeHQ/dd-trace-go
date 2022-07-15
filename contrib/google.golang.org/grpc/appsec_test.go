@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace/mocktracer"
+	"github.com/ClearcodeHQ/dd-trace-go/internal/appsec"
 
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"

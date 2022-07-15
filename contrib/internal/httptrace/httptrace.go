@@ -17,9 +17,9 @@ import (
 
 	"inet.af/netaddr"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace/ext"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace/tracer"
 )
 
 var (

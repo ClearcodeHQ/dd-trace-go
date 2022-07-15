@@ -14,8 +14,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace/ext"
+	"github.com/ClearcodeHQ/dd-trace-go/internal/log"
 )
 
 func setupteardown(start, max int) func() {

@@ -9,12 +9,12 @@ package echo
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/ClearcodeHQ/dd-trace-go/contrib/internal/httptrace"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace/ext"
+	"github.com/ClearcodeHQ/dd-trace-go/ddtrace/tracer"
+	"github.com/ClearcodeHQ/dd-trace-go/internal/appsec"
+	"github.com/ClearcodeHQ/dd-trace-go/internal/log"
 
 	"github.com/labstack/echo/v4"
 )
